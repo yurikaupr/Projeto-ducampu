@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>ducampu — Venda de produtos orgânicos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <div class="logo">
+                <a class="h1" href="#">ducampu</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="button">Entrar</a></li>
+                    <li><a class="button" href="">Inscrever-se</a></li>
+                    <li>
+                        <a href="" class="active">Pagina inicial</a>
+                    </li>
+                    <li>
+                        <a href="">Objetivos</a>
+                    </li>
+                    <li>
+                        <a href="">Colaboradores</a>
+                    </li>
+                    <li>
+                        <a href="">Contato</a>
+                    </li>
+                </ul>
+                <div class="login-signup">
+                    <a href="">Entrar</a><a href="">Inscrever-se</a>
+                </div>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="login-signup">
+                <a href="">Entrar</a> <a href="">Inscrever-se</a>
+            </div>
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        nav = document.querySelector("nav");
+        hamburger.onclick = function() {
+            nav.classList.toggle("active");
+        }
+    </script>
+    <main>
+        <h1 class="text1">
+            <span class="text-before">Explore um universo de sabores.</span> <br>
+            <span class="text-after">Diretamente da terra para a sua mesa.</span>
+        </h1>
+        <div class="container">
+          <a href="#" class="button1">Junte-se a nós</a>
+          <a href="#" class="button2">Explore os produtos</a>
+        </div>
+    </main>
+    <div class="video-container">
+        <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/x_vfR0FcfrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
