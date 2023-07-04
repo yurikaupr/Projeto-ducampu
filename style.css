@@ -119,6 +119,15 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     color: #1b4e22f3;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.164);
+}
+.text2{
+    color: #1b4e22f3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: -10vh;
+    text-align: center;
+    font-size: calc(15px + 20 * ((100vw - 375px) / 1545));
 }
 .container {
     display: flex;
@@ -165,8 +174,8 @@ main {
     transition: .2s;
 }
 .button2:hover{
-    color: #2e8339d8;
-    outline: 2px solid #2e8339d8;
+    color: #4a9f56d8;
+    outline: 2px solid #4a9f56d8;
     transition: .2s;
 }
 @media only screen and (max-width: 1130px) {
@@ -292,6 +301,7 @@ iframe {
     left: 0;
     border-radius: 10px;
     box-shadow: 5px 5px 8px  rgba(0, 0, 0, 0.249);
+    margin-top: 10px;
 }
 .foot{
     text-align: center;
