@@ -212,6 +212,9 @@ main {
         font-size: calc((32px + 0.03 * (100vh - 250px)));
         margin-top: calc(100px + 0.05 * (580px - min(580px, 100vh)));
     }
+    .text2{
+        font-size: calc(8px + 12 * ((100vw - 375px) / 1545));
+    }
     .container{
         flex-direction: row;
         justify-content: center;
@@ -286,7 +289,7 @@ main {
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to top, #3EB54E, #ffffff);
-    margin-top: 18px;
+    margin-top: 5vh;
 }
 .video-wrapper {
     width: 65%;
