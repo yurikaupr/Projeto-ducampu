@@ -127,7 +127,7 @@ main {
     font-weight: 600;
     text-align: center;
     font-size: calc(20px + 20 * ((100vw - 375px) / 1545));
-    background-image: linear-gradient(to bottom, #f2fff5, #fefefe);
+    background-image: linear-gradient(to bottom, #f2fff5, #fff);
 }
 .container {
     display: flex;
@@ -288,7 +288,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to top, #3EB54E, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #3EB54E);
     margin-top: 5vh;
 }
 .video-wrapper {
