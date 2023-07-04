@@ -110,7 +110,7 @@ main {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: linear-gradient(to bottom, #3EB54E, #f2fff5);
+    background: linear-gradient(to bottom, #3EB54E, #fff);
 }
 .text1 {
     font-size: calc(35px + 54 * ((100vw - 375px) / 1545));
@@ -127,7 +127,7 @@ main {
     font-weight: 600;
     text-align: center;
     font-size: calc(20px + 20 * ((100vw - 375px) / 1545));
-    background-image: linear-gradient(to bottom, #f2fff5, #fff);
+    background-image: linear-gradient(to bottom, #fff, #fff);
 }
 .container {
     display: flex;
