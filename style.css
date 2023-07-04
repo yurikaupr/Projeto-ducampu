@@ -127,6 +127,7 @@ main {
     font-weight: 600;
     text-align: center;
     font-size: calc(20px + 20 * ((100vw - 375px) / 1545));
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.164);
     background-image: linear-gradient(to bottom, #fff, #fff);
 }
 .container {
